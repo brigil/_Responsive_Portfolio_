@@ -1,0 +1,26 @@
+
+body {
+    /* Typography */
+    font-size: 18px;
+    line-height: 27px;
+  
+    /* Visual */
+    background-color: rgb(126, 105, 105);
+  }
+
+
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+  
+    #sidebar, #main-content {
+       
+       width: 100%
+       
+      
+    }
+    #sidebar {
+      margin-top: 20px;
+    }
+    /* The wrapper's width will be 600px */
+   
+    }
