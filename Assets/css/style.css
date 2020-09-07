@@ -1,26 +1,50 @@
 
-body {
-    /* Typography */
-    font-size: 18px;
-    line-height: 27px;
+
   
     /* Visual */
-    background-color: rgb(126, 105, 105);
+    body{background-image: url(../images/full-bloom.png)
+    
+  }
+   
+  p {
+    margin: 30px;
   }
 
+  h1 {
+    color:rgb(126, 105, 105)  }
+  .mePic { 
+margin: 40px;
+  }
+ 
+  footer {
+    padding: 30px;
+   clear: both;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   color: grey;
+ 
+}
 
-@media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-  
-    #sidebar, #main-content {
-       
-       width: 100%
-       
-      
-    }
-    #sidebar {
-      margin-top: 20px;
-    }
-    /* The wrapper's width will be 600px */
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+/*
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+*/
+
+@media (max-width: 501px) {
+  .navbar:not(.top-nav-collapse) {
+    background: whitesmoke !important;
    
-    }
+  }
+  .mePic { 
+    margin: ;
+      }
+ }
+ 
+
+
+
