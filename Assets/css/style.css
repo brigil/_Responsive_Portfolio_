@@ -2,28 +2,38 @@
 
   
     /* Visual */
-    body{background-image: url(../images/full-bloom.png)
+    body {background-image: url(../images/full-bloom.png)
     
   }
    
-  p {
-    margin: 30px;
-  }
-
-  h1 {
-    color:rgb(126, 105, 105)  }
-  .mePic { 
-margin: 40px;
-  }
  
-  footer {
-    padding: 30px;
-   clear: both;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   text-align: center;
-   color: grey;
+.inside {
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+}
+    .h1 {
+    color:rgb(126, 105, 105) 
+   
+   }
+
+   .mePic { 
+    float: left;
+    margin-right: 15px;
+
+  }
+  
+footer {
+    
+    margin-top: 60px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(126, 105, 105) 
  
 }
+
 
 .top-nav-collapse {
   background-color: #78909c !important;
@@ -41,8 +51,10 @@ margin: 40px;
    
   }
   .mePic { 
-    margin: ;
-      }
+    
+    margin-right: 15px;
+
+  }
  }
  
 
