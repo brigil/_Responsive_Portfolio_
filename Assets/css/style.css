@@ -1,60 +1,70 @@
+body { 
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+  background-image: url(../images/full-bloom.png)
+  
+    
+    
+}
+
+img, h1 {
+  padding: 20px;
+}
+
 
 
   
-    /* Visual */
-    body {background-image: url(../images/full-bloom.png)
-    
-  }
+ .navbar-brand {
+  border-color: #4aaaa5;
+  color: white;
+  background-color: #4aaaa5;
+  padding: 15px;                
+  margin-bottom: -8px;
+  margin-top: -7px;
+  font-size: 23px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  letter-spacing: 1px;
+ }
+
+
    
  
-.inside {
-    padding: 10px;
-    font-size: 14px;
-    color: black;
-    display: inline-block;
-}
-    .h1 {
-    color:rgb(126, 105, 105) 
-   
-   }
 
-   .mePic { 
+   
+
+
+ /* I floated my picture to the left so that it can meet my text in the middle*/
+.mePic { 
     float: left;
     margin-right: 15px;
+    padding: 20px;
 
   }
   
 footer {
     
-    margin-top: 60px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    color: rgb(126, 105, 105) 
+    background-color: #666666;
+    margin-bottom: 20px;
+      padding: 30px;
+      clear: both;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      font-size: 16px;
+      color: #cccccc;
+      border-top: solid #4aaaa5 6px;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
  
-}
-
-
-.top-nav-collapse {
-  background-color: #78909c !important;
-}
-/*
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
-
-*/
-
-@media (max-width: 501px) {
-  .navbar:not(.top-nav-collapse) {
-    background: whitesmoke !important;
-   
-  }
-  .mePic { 
-    
-    margin-right: 15px;
-
-  }
+  img {
+    max-width: 236px;
+    height: 100%;
+    float: left;
+ }
  }
  
 
