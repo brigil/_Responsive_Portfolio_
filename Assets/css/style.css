@@ -2,6 +2,7 @@ body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
   background-image: url(../images/full-bloom.png)
   
+  
     
     
 }
@@ -12,14 +13,27 @@ h1 {
 }
 
 img {
-  padding: 20px;
+  padding: 5px;
+}
+
+.whiteCol {
+  background-color: white;
+  border: thin solid rgb(163, 163, 163);
+  margin-left: 10vw;
+  margin-top: 10vh;
+  margin-right: 10vw;
+  padding: 12px;
+  
+
 }
 
 
-
+.mePic {
+  float: left;
+}
   
  .navbar-brand {
-  border-color: rgb(163, 163, 163);
+  
   color: white;
   background-color: rgb(159, 96, 96);
   padding: 15px;                
@@ -48,14 +62,7 @@ background-color: rgb(159, 96, 96);
   }
 
  /* I floated my picture to the left so that it can meet my text in the middle*/
-.mePic { 
-    
-    padding: 5px;
-    margin: 5px;
-    
-   
-    
-  }
+
   
 footer {
     
@@ -79,12 +86,9 @@ footer {
 
 @media (max-width: 765px) {
  
-  .mePic {
-    max-width: 500px;
-    height: 100%;
-   
+
  }
- }
+
  
 
 
