@@ -43,7 +43,9 @@ background-color: rgb(159, 96, 96);
   }
 
    
-
+  .form-group {
+    color: rgb(159, 96, 96);
+  }
 
  /* I floated my picture to the left so that it can meet my text in the middle*/
 .mePic { 
