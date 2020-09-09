@@ -5,8 +5,13 @@ body {
     
     
 }
+h1 {
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(163, 163, 163)
+}
 
-img, h1 {
+img {
   padding: 20px;
 }
 
@@ -14,9 +19,9 @@ img, h1 {
 
   
  .navbar-brand {
-  border-color: #4aaaa5;
+  border-color: rgb(163, 163, 163);
   color: white;
-  background-color: #4aaaa5;
+  background-color: rgb(159, 96, 96);
   padding: 15px;                
   margin-bottom: -8px;
   margin-top: -7px;
@@ -27,30 +32,42 @@ img, h1 {
 
 
    
- 
+ .text-bar { 
+    
+  position: absolute;
+background-color: rgb(159, 96, 96);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+   
+  }
 
    
 
 
  /* I floated my picture to the left so that it can meet my text in the middle*/
 .mePic { 
-    float: left;
-    margin-right: 15px;
-    padding: 20px;
-
+    
+    padding: 5px;
+    margin: 5px;
+    
+   
+    
   }
   
 footer {
     
-    background-color: #666666;
-    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(159, 96, 96);
+    
       padding: 30px;
       clear: both;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       text-align: center;
       font-size: 16px;
       color: #cccccc;
-      border-top: solid #4aaaa5 6px;
+      border-top: solid rgb(163, 163, 163) 6px;
+      bottom: 0;
   }
 }
 
@@ -58,12 +75,12 @@ footer {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
  
-  img {
-    max-width: 236px;
+  .mePic {
+    max-width: 500px;
     height: 100%;
-    float: left;
+   
  }
  }
  
