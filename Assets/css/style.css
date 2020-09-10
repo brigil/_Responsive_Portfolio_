@@ -3,7 +3,7 @@ body {
   background-image: url(../images/full-bloom.png)
   
   
-    
+
     
 }
 h1 {
@@ -13,7 +13,7 @@ h1 {
 }
 
 img {
-  padding: 5px;
+  padding: 10px;
   margin-left: 10px;
 }
 
@@ -96,11 +96,13 @@ img {
 
 /* Medium devices (768px and up) */
 @media only screen and (min-width: 768px) {
+  .mePic {
+    max-width: 236px;
+    height: 100%;
+    floa
+  }
 } 
 
-/* Large devices (992px and up) */
-@media only screen and (min-width: 992px) {
-} 
 
 
 
