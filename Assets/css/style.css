@@ -2,22 +2,23 @@ body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
   background-image: url(../images/full-bloom.png)
   
-  
+  }
 
-    
-}
+
+
+/* this controls my h1  */
 h1 {
   padding: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(163, 163, 163)
 }
-
+/* this controls the spacing around my img */
 img {
   padding: 10px;
   margin-left: 10px;
 }
 
-
+/* this controls the border */
 .card {
   border-color: #dddddd;
   background-color: #ffffff;
@@ -25,7 +26,7 @@ img {
   
   
   }
-
+/* this controls my pictures */
 .mePic {
   float: left;
   height: auto; 
@@ -33,7 +34,7 @@ img {
     max-width: 200px; 
     max-height: 200px;
 }
-  
+  /*  this line controls the part of my navbar that is pink */
  .navbar-brand {
   
  
@@ -46,18 +47,9 @@ img {
   
  }
 
-
-   
- .text-bar { 
-    
-  position: absolute;
-  background-color: rgb(159, 96, 96);
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-   
-  }
-
+ 
+ 
+/* This line controls the text in front of my projects */
   .projectText {
     opacity: 0.8;
     position: absolute;
@@ -70,13 +62,15 @@ img {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-  }
+  } 
+
+  /* This line control the text in my contact */
   .form-group {
     color: rgb(159, 96, 96);
   }
 
 
-  
+  /* This line is in control of my footer */
   footer {
     
     text-align: center;
@@ -90,24 +84,19 @@ img {
       border-top: solid rgb(163, 163, 163) 6px;
       bottom: 0;
   }
-}
+
+  
+  @media screen and (max-width: 768px) {
+    /* makes the picture of me bigger on smaller screens */
+        .mePic {
+         
+       
+              max-width: 400px; 
+              max-height: 400px;
+          }
+        }
 
 
-
-/* Medium devices (768px and up) */
-@media only screen and (min-width: 768px) {
-  .mePic {
-    max-width: 236px;
-    height: 100%;
-    floa
-  }
-} 
-
-
-
-
-
- 
 
 
 
