@@ -1,43 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 body { 
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
-  background-image: url(../images/full-bloom.png)
+   
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/elena-brighittini-bg-casa.jpg)
   
   }
 
-
-
 /* this controls my h1  */
 h1 {
-  padding: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(163, 163, 163)
+  text-align: center;
+ 
+  color: hsl(206, 17%, 28%);  
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+#intro{
+  align-content: center;
+  margin: 500px;
 }
 /* this controls the spacing around my img */
 img {
   padding: 10px;
-  margin-left: 10px;
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* this controls the border */
 .card {
-  border-color: #dddddd;
-  background-color: #ffffff;
-  padding:5px
-  
-  
-  }
+  background-color: transparent;
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: hsl(206, 17%, 28%);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 40px 40px;
+}
+
 /* this controls my pictures */
 .mePic {
+  border-radius: 8px;
   float: left;
   height: auto; 
     width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
+    max-width: 300px; 
+    max-height: 300px;
+    
 }
   /*  this line controls the part of my navbar that is pink */
  .navbar-brand {
-  
- 
+
   background-color: rgb(159, 96, 96);
   padding: 15px;                
   margin-bottom: -8px;
@@ -55,13 +85,15 @@ img {
     position: absolute;
     bottom: 20px;
     background-color: rgb(159, 96, 96);
-    padding-left: 60px;
-    padding-right: 55px;
+    padding-left: 40px;
+    padding-right: 45px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    width: 300px;
+    
   } 
 
   /* This line control the text in my contact */
@@ -72,31 +104,50 @@ img {
 
   /* This line is in control of my footer */
   footer {
-    
+    color: whitesmoke;
     text-align: center;
-    background-color: rgb(159, 96, 96);
-    padding: 30px;
-      clear: both;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      text-align: center;
-      font-size: 16px;
-      color: #cccccc;
-      border-top: solid rgb(163, 163, 163) 6px;
-      bottom: 0;
+    background-color: transparent;
+    padding: 12px;
+    clear: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    bottom: 0;
   }
+  .introfoot {
+    color: whitesmoke;
+    text-align: center;
+    background-color: transparent;
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+
+  }
+    
+ 
 
   
-  @media screen and (max-width: 768px) {
-    /* makes the picture of me bigger on smaller screens */
-        .mePic {
-         
-       
-              max-width: 400px; 
-              max-height: 400px;
-          }
-        }
 
+  @media (max-width: 690px) {
+    .btn {
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
+    }
+  
+  
+  }
+  
 
-
-
+@media (min-width: 668px){
+  .profilePic {
+    
+    width: 400px;
+    height: 400px;
+    float: left;
+  }
+  
+}
 
