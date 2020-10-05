@@ -2,7 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} 
 html,
 body{
   height: 100%;
@@ -15,7 +15,7 @@ body {
    
   font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: 100%;
     background-size: cover;
     background-position: center;
@@ -26,14 +26,22 @@ body {
 /* this controls my h1  */
 h1 {
   text-align: center;
- 
   color: hsl(206, 17%, 28%);  
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 }
-#intro{
-  align-content: center;
-  margin: 500px;
+.hello{
+  
+  color: antiquewhite;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
 }
+h3{
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+
+}
+
 /* this controls the spacing around my img */
 img {
   padding: 10px;
@@ -41,6 +49,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+.introPic {
+  border-radius: 95px;
+  align-content: center;
+  margin-top: 200px;
+  
+}
+
+
 
 /* this controls the border */
 .card {
@@ -77,7 +93,15 @@ img {
   
  }
 
- 
+ .btn {
+   width: 400px;
+   height: 45px;
+   background-color: black;
+   opacity: .5;
+   border-color: black;
+   
+ }
+
  
 /* This line controls the text in front of my projects */
   .projectText {
@@ -116,8 +140,9 @@ img {
   .introfoot {
     color: whitesmoke;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: transparent;
-   
+    font-size: 13px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -130,11 +155,9 @@ img {
 
   
 
-  @media (max-width: 690px) {
-    .btn {
-      font-size: 1rem;
-      margin: 16px 0px 0px 0px;
-      padding: 10px 15px;
+  /* @media (max-width: 690px) {
+    .wrapper {
+     align-content: center;
     }
   
   
@@ -149,5 +172,5 @@ img {
     float: left;
   }
   
-}
+} */
 
