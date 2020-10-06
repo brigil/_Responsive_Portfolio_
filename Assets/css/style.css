@@ -60,7 +60,7 @@ img {
 
 /* this controls the border */
 .card {
-  background-color: transparent;
+  background-color:transparent;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -73,6 +73,7 @@ img {
   margin: 0 auto;
   max-width: 800px;
   padding: 40px 40px;
+  align-content: center;
 }
 
 /* this controls my pictures */
@@ -138,26 +139,24 @@ img {
 
 
   /* This line is in control of my footer */
-  footer {
-    color: whitesmoke;
-    text-align: center;
-    background-color: transparent;
-    padding: 12px;
-    clear: both;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    bottom: 0;
-  }
+ 
   .introfoot {
     color: whitesmoke;
     text-align: center;
+    padding: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: transparent;
-    font-size: 12px;
+    font-size: 14px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+  }
+  .socialMedia{
+    padding-top: 20px;
+    text-align: center;
+    
+
   }
   
   
