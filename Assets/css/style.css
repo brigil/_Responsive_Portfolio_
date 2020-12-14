@@ -3,12 +3,14 @@
 *::after {
   box-sizing: border-box;
 } 
-
-.profilePic{
-  width: 500px;
-  
+html,
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-/* 
+
+
 body { 
    
   font-family: Arial, Helvetica, sans-serif;
@@ -18,21 +20,13 @@ body {
     background-size: cover;
     background-position: center;
     background-image:url("https://wallpaperaccess.com/full/628286.jpg");
-  } */
-  html,
-  body,
-  header,
-  .view {
-    height: 100%; 
-    background-image: url(https://wallpaperaccess.com/full/628286.jpg); 
-    background-size: cover; 
-    background-position: center center;
+  
   }
 
 /* this controls my h1  */
-h1 {
+h2 {
   text-align: center;
- background-image: url("https://i.gifer.com/WG8P.gif");
+ 
 }
 .hello{
   
@@ -57,7 +51,7 @@ img {
 .introPic {
   border-radius: 95px;
   align-content: center;
-  margin-top: 40px;
+  margin-top: 80px;
   
 }
 #logoname{
