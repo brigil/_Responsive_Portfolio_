@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-} 
+ 
 html,
 body{
   height: 100%;
@@ -23,12 +19,34 @@ body {
   
   }
 
-/* this controls my h1  */
+/* this controls navbar  */
+  .navbar-brand {
+    color: white!important;
+    padding: 5px;                
+    margin-bottom: -10px;
+    margin-top: -10px;
+    font-size: 45px;
+   }
+
+   .navbar{
+    background-image: url("https://i.gifer.com/2iiH.gif");
+   }
+   .navbar-nav {
+     background-image: url("https://i.gifer.com/2iiH.gif");
+     font-family: 'Comfortaa', cursive;
+     background-position: center;
+     text-align: center;
+     font-size: 30px;
+     
+   }
+
+/* this controls h2, h4  */
 h2, h4 {
   text-align: center;
 
  
 }
+
 .hello{
   
   color: antiquewhite;
@@ -42,6 +60,10 @@ h3{
 
 }
 
+#conBtn{
+  color: hotpink;
+}
+
 /* this controls the spacing around my img */
 img {
   padding: 10px;
@@ -52,13 +74,11 @@ img {
 .introPic {
   border-radius: 95px;
   align-content: center;
-  margin-top: 80px;
+  margin-top: 40x;
   
 }
 
-#logoname{
-  margin-left: -28px;
-}
+
 
 
 
@@ -89,7 +109,7 @@ img {
  
 
  .btn {
-   width: 400px;
+   width: 300px;
    height: 45px;
    background-color: black;
    opacity: .5;
@@ -98,49 +118,25 @@ img {
  }
 
  
-/* This line controls the text in front of my projects */
-  .projectText {
-    opacity: 0.8;
-    position: absolute;
-    bottom: 20px;
-    background-color: rgb(159, 96, 96);
-    padding-left: 40px;
-    padding-right: 45px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    width: 300px;
-    
-  } 
-
-  /* This line control the text in my contact */
-  
-    .navbar-brand {
-      color: white!important;
-      padding: 5px;                
-      margin-bottom: -10px;
-      margin-top: -10px;
-      font-size: 45px;
-      font-family: 'Amatic SC', cursive;
-      
-     }
-     
 
 
   
+   
+
+
+     .socialMedia{
+      padding-top: 20px;
+      text-align: center;
+    }
 
 
   /* This line is in control of my footer */
- 
-  
-  .socialMedia{
-    padding-top: 20px;
+  .introfoot {
     text-align: center;
-    
-
+  color: wheat;
   }
+  
+ 
   
   
   

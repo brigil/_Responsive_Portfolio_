@@ -10,8 +10,8 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Long+Cang&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
    <!--  Styles  -->
   <link rel="stylesheet" href="Assets/css/style.css">
@@ -70,9 +70,9 @@
           <img src="https://fontmeme.com/permalink/201201/d7f606b1509508702855049f85d30123.png"/>
           <img src="https://fontmeme.com/permalink/201211/2e9bb4ac88615d6921b96ee16bf7c8d1.png" width="90" height="90"/>
             </h3></div>
-         <a class="btn btn-outline-white wow fadeInDown" href="#AboutMe" data-wow-delay="0.4s">About me</a>
-          <a class="btn btn-outline-white wow fadeInDown" href="#Portfolio" data-wow-delay="0.4s">Portfolio</a>
-          <a class="btn btn-outline-white wow fadeInDown" href="#Contact" data-wow-delay="0.4s">Contact</a>
+         <a class="btn btn-outline-white wow fadeInDown" id="conBtn" href="#AboutMe" data-wow-delay="0.4s">About me</a>
+          <a class="btn btn-outline-white wow fadeInDown" id="conBtn" href="#Portfolio" data-wow-delay="0.4s">Portfolio</a>
+          <a class="btn btn-outline-white wow fadeInDown" id="conBtn" href="#Contact" data-wow-delay="0.4s">Contact</a>
         </div>
         <!--Grid column-->
       </div>
@@ -364,7 +364,7 @@
                 <label for="form-contact-message"> Message</label>
                 <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
                 <br>
-                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                <button type="submit" id="conBtn" class="btn btn-outline-secondary">Submit</button>
               </div>
             </div>
             <!-- Grid column -->
