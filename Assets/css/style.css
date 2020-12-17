@@ -63,12 +63,12 @@ h3{
 
 }
 
-#conBtn{
+.conBtn {
   color: hotpink;
   font-family: 'Nova Flat', cursive;
   font-size: 17px;
 }
-#logoname{
+.logoname {
   margin-left: -28px;
 }
 
