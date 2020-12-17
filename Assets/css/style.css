@@ -22,6 +22,7 @@ body {
 /* this controls navbar  */
   .navbar-brand {
     color: white!important;
+
     padding: 5px;                
     margin-bottom: -10px;
     margin-top: -10px;
@@ -33,10 +34,10 @@ body {
    }
    .navbar-nav {
      background-image: url("https://i.gifer.com/2iiH.gif");
-     font-family: 'Comfortaa', cursive;
+     font-family: 'Nova Flat', cursive;
      background-position: center;
      text-align: center;
-     font-size: 30px;
+     font-size: 18px;
      
    }
 
@@ -57,11 +58,17 @@ h2, h4 {
 h3{
  text-align: center;
   font-size: 40px;
+  font-family: 'Nova Flat', cursive;
 
 }
 
 #conBtn{
   color: hotpink;
+  font-family: 'Nova Flat', cursive;
+  font-size: 17px;
+}
+#logoname{
+  margin-left: -28px;
 }
 
 /* this controls the spacing around my img */
@@ -112,8 +119,9 @@ img {
    width: 300px;
    height: 45px;
    background-color: black;
-   opacity: .5;
+   opacity: .4;
    border-color: black;
+   font-family: 'Nova Flat', cursive;
    
  }
 
