@@ -3,44 +3,434 @@
 
 <head>
   <meta charset="UTF-8">
+    <!-- Bootstrap -->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="Assets/css/style.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Anton&family=Long+Cang&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Long+Cang&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
     rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-  <title>Brigitte Gil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+   <!--  Styles  -->
+  <link rel="stylesheet" href="Assets/css/style.css">
+  <title>Brigitte Gil | About Me</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-dark">
+   
+      <a class="navbar-brand" href="./index.html">
+        <img src="https://fontmeme.com/permalink/201211/2e9bb4ac88615d6921b96ee16bf7c8d1.png" width="80" height="40"/>
+       <img id="logoname" src="https://fontmeme.com/permalink/201201/87810fb898b2de25295d3cbf26606a9f.png" width="80" height="40"/></a>
+       </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="container">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
+        <ul class="navbar-nav">
 
+          <li class="nav-item">
+            <a id class="nav-link" href="#AboutMe">About Me </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!--nav ends-->
+<!-- Full Page Intro -->
+<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image:url(./img/IMG-4756.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+  <!-- Mask & flexbox options-->
+  <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+    <!-- Content -->
+    <div class="container">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-12 mb-4 white-text text-center">
+          
+          <div class="hello">
+            <img class="introPic" src="./Assets/images/0-1.jpg">
+          
+          
+            <h3 className="hello">
+          <img src="https://fontmeme.com/permalink/201201/e52efc48454378556909114857a9771a.png" />
+          <br />
+          <img src="https://fontmeme.com/permalink/201201/d7f606b1509508702855049f85d30123.png"/>
+          <img src="https://fontmeme.com/permalink/201211/2e9bb4ac88615d6921b96ee16bf7c8d1.png" width="90" height="90"/>
+            </h3></div>
+         <a class="btn btn-outline-white wow fadeInDown" href="#AboutMe" data-wow-delay="0.4s">About me</a>
+          <a class="btn btn-outline-white wow fadeInDown" href="#Portfolio" data-wow-delay="0.4s">Portfolio</a>
+          <a class="btn btn-outline-white wow fadeInDown" href="#Contact" data-wow-delay="0.4s">Contact</a>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Content -->
+  </div>
+  <!-- Mask & flexbox options-->
+</div>
+<!-- END OF MAIN PAGE -->
+</header>
+<br>
+<br>
+<br>
+<!-- ABOUT ME CARD -->
+<div  id="AboutMe" class="container my-5" >
+
+<section>
   
-    <div class="hello">
-  <img class="introPic" src="./Assets/images/0-1.jpg">
-
-
-  <h3 className="hello"
->
-<img src="https://fontmeme.com/permalink/201201/e52efc48454378556909114857a9771a.png" />
-<br />
-<img src="https://fontmeme.com/permalink/201201/d7f606b1509508702855049f85d30123.png"/>
-<img src="https://fontmeme.com/permalink/201211/2e9bb4ac88615d6921b96ee16bf7c8d1.png" width="90" height="90"/>
-  </h3>
+  <div class="card mb-4" style="background-color:white;">
     
-    
+    <div class="row">
 
+      <div class="col-md-6">
+        <img class="profilePic" src="https://i.ibb.co/9HXPM86/IMG-1221.jpg" alt="Picture of Me" style= "background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      </div>
 
-    <a href="aboutme.html">
-      <button class="btn btn-outline-light">
-        Let's Design Together</button></a>
-     
-      </div></div>
-</a>
+      <div class="col-md-6 p-5 align-self-center" >
+
+        <h2><img src="https://fontmeme.com/permalink/201212/52669d7e2ddb872116ba6c8818c0c7a7.png" />
+        </h2>
+
+        <p class="text-muted" style="color: black;">
+           I'm a Full-stack web developer specializing in the development of
+           websites and applications by utilizing HTML, CSS, JavaScript,
+          jQuery, Node.js, Heroku, Git, Laravel, React.js, MySQL and MongoDB.
+          <br><br>
+          I am very passionate about creating beautiful user experiences through code and responsive design.
+          I am a motivated, and fast learning individual capable of adapting quickly to any given role.
+           Excited to dedicate my time to further my learning and training to enhance my skills in Full Stack Web Development.
+</p>
+
+       
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</div>
+
+<div class="container my-5">
+<!--END OF ABOUT ME -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<hr  id="Portfolio" class="rounded btn-outline-white" >
+    <!-- BEGINING OF PROJECTS -->
+    <section  class="white-text text-center">
+  
+      <h1 class="text-center font-weight-bold mb-4 pb-2 white-text"><img src="https://fontmeme.com/permalink/201212/1a486d6b7ca1e809c57b5814e63a026a.png" /></h1>
+      
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mb-4">
+  
+          <!-- Card -->
+          <div class="card card-image" style="background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2015/06/14/722762/623cd6854d54e94b38917ef82c10a455.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 px-md-5 rounded">
+              <div>
+                <h3 class="white-text">
+                  <i class="fas fa-syringe"></i>
+                  <strong> InkMap</strong>
+                </h3>
+                
+                <p class="pb-3"> <br> InkMap was designed to not only inspire you to get your next tattoo, but also to show you where you can get it done. Find your inspiration with InkMap. <br><br></p>
+                <a class="btn btn-dark btn-rounded btn-md"href="https://crowe828.github.io/inkmap/" target="_blank"><i class="fas fa-clone left" ></i> View project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+  
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-4">
+  
+          <!-- Card -->
+          <div class="card card-image" style="background-image: url(https://www.burkeinstituto.com/wp-content/uploads/2018/12/books_old_reading_124989_2560x1080.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 px-md-5 rounded">
+              <div>
+                <h3 class="white-text">
+                  <i class="fas fa-book"></i>
+                  <strong> BookMark</strong>
+                </h3>
+                
+                <p class="pb-3">Bookmark alows you to see recomended books, search for books, and add a book to the database.
+                From there you can see more details on the book you search and select.
+                You can also add the book to your "favorites" section on your account.</p>
+                <a class="btn btn-dark btn-rounded btn-md"href="https://github.com/brigil/Bookmark" target="_blank"><i class="fas fa-clone left" ></i> View project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mb-4">
+  
+          <!-- Card -->
+          <div class="card card-image" style="background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bf381e59677683.5a2ad56126c84.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 px-md-5 rounded">
+              <div>
+                <h3 class="white-text">
+                  <i class="fas fa-globe-americas"></i>
+                  <strong> Tour Me</strong>
+                </h3>
+                <p class="pb-3"> <br> Traveling but not really sure what to do. Have no fear, leave it to us to pan out your whole vacation. With numberous locations to choose from, we have 10-4 day itineraries that will work for the whole family. <br></p>
+                <a class="btn btn-dark btn-rounded btn-md"href="https://tourmee.herokuapp.com/" target="_blank"><i class="fas fa-clone left"></i> View project</a>
+              </div>
+            </div>
+          </div> 
+          <!-- Card -->
+  
+        </div>
+        <!-- Grid column -->
+   <div class="col-md-6 mb-4">
+  
+          <!-- Card -->
+          <div class="card card-image" style="background-image: url(https://cdn.statically.io/img/wallpapercave.com/wp/wp1951607.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 px-md-5 rounded">
+              <div>
+                <h3 class="white-text">
+                  <i class="fas fa-user-astronaut"></i>
+                  <strong> Outer Space</strong>
+                </h3>
+                
+                <p class="pb-3">This Tool allows business owners to view and manage the departments, roles, and employees in my company. Also, business owners will be able to modified employees information, roles, and even change employees to different deparments.
+                </p>
+                <a class="btn btn-dark btn-rounded btn-md"href="https://brigil.github.io/Weather_Forecast/" target="_blank"><i class="fas fa-clone left"></i> View project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+  
+        </div>
+        
+         <div class="col-md-6 mb-4">
+  
+          <!-- Card -->
+          <div class="card card-image" style="background-image: url(https://wi.wallpapertip.com/wsimgs/41-412909_github-octocat.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 px-md-5 rounded">
+              <div>
+                <h3 class="white-text">
+                  <i class="far fa-file-code"></i>
+                  <strong> README Generator</strong>
+                </h3>
+        
+                <p class="pb-3">Generate Professional README files in a matter of seconds. This app allow users to generate README files for their repositories in a very essay way. By runnig this generator users will create a README file that will display a description of the project, installations,and much more.
+                </p>
+                <a class="btn btn-dark btn-rounded btn-md"href="https://github.com/brigil/README-generator" target="_blank"><i class="fas fa-clone left"></i> View project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+  
+        </div>
+         <div class="col-md-6 mb-4">
+  
+          <!-- Card -->
+          <div class="card card-image" style="background-image: url(https://i.pinimg.com/originals/ff/ef/fb/ffeffbb56be042323c9662c26a52f86b.jpg);background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 px-md-5 rounded">
+              <div>
+                <h3 class="white-text">
+                  <i class="fas fa-cloud-sun"></i>
+                  <strong>Weather Dash </strong>
+                </h3>
+               
+                <p class="pb-3"> This app allows user to see a complete 5 day forecast of any city in the world. Also, this forescast will show the user details such as huminity, temperature, wind speed, and UV index. This project uses the API of Openweathermap. The use of  this Technology allows the app to pull all this data and show it to the user.
+                </p>
+                <a class="btn btn-dark btn-rounded btn-md"href="https://brigil.github.io/Weather_Forecast/" target="_blank"><i class="fas fa-clone left"></i> View project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+  
+        </div>
+        
+      </div>
+      <!-- Grid row -->
+  
+    </section>
+  
+  
+  
+  </div>
+   <!-- END OF MY PROJECTS -->
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <div  id="Contact" class="container my-5">
 
  
+    <!--BEGIN OF CONTACT ME -->
+<hr  id="Contact" class="rounded btn-outline-white" >
+<section class="contact-section white-text mb-5">
+  
+  <style>
+    .contact-section .form .btn-floating {
+      left: 3px;
+    }
+  </style>
+
+  <!-- Form with header -->
+  
+  <div class="card mb-4" style="background-color:white;">
+    <h3 class="font-weight-bold my-4 pb-2">Let's Stay Connected </h3>
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-8">
+
+        <div class="card-body form">
+
+          <!-- Header -->
+      
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <label for="form-contact-name" class="">Name</label>
+                <input type="text" id="form-contact-name" class="form-control">
+                
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <label for="form-contact-email" class="">Email</label>
+                <input type="text" id="form-contact-email" class="form-control">
+                
+              </div>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            
+
+      
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <label for="form-contact-message"> Message</label>
+                <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                <br>
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 ">
+
+        <div class="card-body contact text-center h-100 white-text black">
+
+          
+          <h1><img src="https://fontmeme.com/permalink/201212/931a167e755ef5cb838f59fc55838154.png" />
+          </h1>
+          <ul class="text-lg-left list-unstyled ml-4">
+            <li>
+              <p><i class="fas fa-map-marker-alt pr-2"></i>Orlando, FL</p>
+            </li>
+          
+            <li>
+              <p><i class="fas fa-envelope pr-2"></i>urbrigette@gmail.com</p>
+            </li>      
+            <li>
+              <h4 class="text-uppercase mt-4 mb-2">
+                <a class="text-muted pr-3" href="https://www.linkedin.com/in/brigittegil/" target= "_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="text-muted pr-3" href="https://github.com/brigil" target="_blank"><i class="fab fa-github"></i></a>
+              </h4>
+             
+            </li>
+  
+          </ul>
+          <hr class="hr-light my-4">
+          
+
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Form with header -->
+
+</section>
+
+
+
+</div>
+<!--END OF CONTACT ME-->
+
+<br><br>
+  <!--Footer-->
+  <footer class="introfoot">
+
+    <!-- Copyright -->
+    &copy; Brigitte Gil | brigil Inc.
+
+  </footer>
 
 
 
@@ -50,7 +440,9 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
- 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
 </body>
 
